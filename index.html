@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <form id="loginForm" class="card" novalidate>
+        <h2>Login</h2>
+
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          autocomplete="username"
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="current-password"
+        />
+
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
